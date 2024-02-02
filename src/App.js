@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import AllUser from "./components/AllUser";
 import CheckConnection from "./components/CheckConnection";
