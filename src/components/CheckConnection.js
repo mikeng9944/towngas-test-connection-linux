@@ -4,6 +4,7 @@ const CheckConnection = () => {
     fetch(
       "https://appsvc-tg-prd-amagpt-backend.azurewebsites.net/backendconnection"
     )
+      // fetch("https://backendtestdeploy.azurewebsites.net/backendconnection")
       .then((response) => response.text())
       .then((data) => console.log(data));
   }, []);
